@@ -36,9 +36,12 @@ The Octave Production Server would allow you to deploy and run Octave code on a 
 * A utilization-aware load balancer?
 * A human-usable web page control panel front-end?
 * A native Octave client?
+* Apache Arrow support?
 
 ### Open Questions
 
+* Is this actually a good idea? Maybe people writing Octave programs should just package them up as regular applications, deploy those, and write their own custom web front-ends for them.
+* Is there some generic "run a language interpreter behind a web service" tool or framework we should be using instead of building something custom?
 * Should it run its own embedded web server, or run behind a regular web server like Apache httpd or nginx?
 * How will the association of deployed code units to defined Octave runtimes be done?
 * Should it support multiple Octave runtimes of a given version?
