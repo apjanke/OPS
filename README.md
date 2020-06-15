@@ -1,6 +1,4 @@
-# OPS
-
-OPS - the Octave Production Server
+# OPS – the Octave Production Server
 
 The Octave Production Server is the Octave equivalent of the [Matlab Production Server](https://www.mathworks.com/products/matlab-production-server.html). It allows you to deploy and run Octave code on a server that presents an HTTP/JSON web service interface for calling your Octave code.
 
