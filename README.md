@@ -21,6 +21,8 @@ The Octave Production Server would allow you to deploy and run Octave code on a 
 * Deployment of user code as named programs or packages
   * Versioning of deployed user code units
   * Transactional, zero-downtime user code deployment mechanism
+* A single-file user code bundling and deployment format
+  * Maybe this is just a `pkg` archive file; maybe it's something else
 * Runs on Linux, Windows, and macOS
 * A Discovery API for getting metadata about deployed user code
 * A Statistics API for getting info and metrics about the server process
