@@ -2,6 +2,10 @@
 
 The Octave Production Server is the Octave equivalent of the [Matlab Production Server](https://www.mathworks.com/products/matlab-production-server.html). It would allow you to deploy and run Octave code on a server that presents an HTTP/JSON web service interface for calling your Octave code.
 
+## UPDATE 6/2020: This Project is Probably Not Going to Happen
+
+After the discussion in <https://github.com/apjanke/OPS/issues/2>, I'm thinking there's no need for this to exist as a separate project, and it should instead be an enhancement to Octave Online Server. No development in this repo is likely to actually happen.
+
 ## This Is a Hypothetical Project
 
 This project does not exist yet! I'm only creating this repo as a placeholder to see if there's any interest in having me (or other people) build this thing. If you would like to see Octave Production Server exist, head on over to [the survey Issue](https://github.com/apjanke/OPS/issues/1) and leave a comment expressing your interest and use cases.
